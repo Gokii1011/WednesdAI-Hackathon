@@ -128,7 +128,7 @@ function App() {
 
 const sendVoiceToSalesforce = async (text) => {
   try {
-      const res = await fetch('https://api.salesforce.com/einstein/ai-agent/v1/sessions/e9746f0b-0a7b-408b-b5f9-39d72792e891/messages', {
+      const res = await fetch('/agent', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
