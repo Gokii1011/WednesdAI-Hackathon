@@ -43,6 +43,7 @@ function App() {
     setIsByProtoOpen(false);
   };
   const closeChat = () => {
+    console.log('HIII')
     setActiveModule(null);
     setMessages([]);
     setInput("");
